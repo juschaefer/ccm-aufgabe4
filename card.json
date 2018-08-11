@@ -1,0 +1,26 @@
+"card": {
+  "class": "card",
+    "inner": [
+      {
+        "tag": "img",
+        "class": "card-img-top",
+        "src": "%img_src%",
+        "alt": "%img_alt%"
+      },
+      {
+        "class": "card-body",
+        "inner": [
+          {
+            "tag": "h5",
+            "class": "card-title",
+            "inner": "%title%"
+          },
+          {
+            "tag": "p",
+            "class": "card-text",
+            "inner": "%text%"
+          }
+        ]
+      }
+]
+}
