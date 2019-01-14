@@ -2,7 +2,9 @@
     var component = {
 
         name: 'komponieren',
-        ccm: 'https://ccmjs.github.io/ccm/ccm.js',
+        //ccm: 'https://ccmjs.github.io/ccm/ccm.js',
+        ccm: 'resources/ccm.js',
+        stars: ["ccm.component", 'ccm.stars.js'],
         config: {
             //html: ["ccm.load", 'tpl.card.html'],
             //html: ["ccm.load", 'card.json'],
@@ -36,11 +38,11 @@
                         },
                         {
                             "class": "card-footer",
-                            "inner": "%stars%"/*{
+                            "inner": {
                                 "tag": "ccm-stars",
                                 "count": 5,
                                 "filled": "%stars%"
-                            }*/
+                            }
                         }
                     ]
                 }
@@ -73,7 +75,6 @@
                     "crossorigin": "anonymous"
                 }
             ],
-            stars: ["ccm.instance", 'ccm.stars.js'],
             style: ["ccm.load", 'resources/style.css']
         },
 
@@ -118,9 +119,8 @@
                             img_alt: result[value].alt,
                             title: result[value].card_title,
                             text: result[value].card_text,
-                            stars: this.stars.render()/*result[value].stars*/
+                            stars: result[value].star
                         }));
-
                     }
 
                 });
