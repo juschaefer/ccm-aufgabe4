@@ -2,7 +2,8 @@
     let component = {
 
         name: 'stars',
-        ccm: 'https://ccmjs.github.io/ccm/ccm.js',
+        //ccm: 'https://ccmjs.github.io/ccm/ccm.js',
+        ccm: 'resources/ccm.js',
         config: {
             html: {
                 "stars": {
@@ -36,7 +37,7 @@
              */
             let $;
 
-            this.init = callback => {
+            /*this.init = callback => {
                 callback && callback();
             };
             this.ready = callback => {
@@ -44,7 +45,7 @@
             };
             this.render = callback => {
                 callback && callback();
-            };
+            };*/
             this.start = callback => {
 
                 $ = self.ccm.helper;
