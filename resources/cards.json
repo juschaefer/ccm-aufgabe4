@@ -4,20 +4,20 @@
     "img_alt": "Karte 1",
     "card_title": "Karte 1",
     "card_text": "Lorem Ipsum",
-    "stars": 3
+    "star": 3
   },
   {
     "img_src": "resources/card.svg",
     "img_alt": "Karte 2",
     "card_title": "Karte 2",
     "card_text": "Lorem Ipsum",
-    "stars": 2
+    "star": 2
   },
   {
     "img_src": "resources/card.svg",
     "img_alt": "Karte 3",
     "card_title": "Karte 3",
     "card_text": "Lorem Ipsum",
-    "stars": 5
+    "star": 5
   }
 ]
